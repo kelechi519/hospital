@@ -1,0 +1,26 @@
+HOW TO INSTLL STREAM
+
+pip install streamlit
+
+python --version
+pip --version
+
+pip install streamlit
+
+streamlit --version
+
+PANDAS
+pip install pandas
+
+python -c "import pandas as pd; print(pd.__version__)"
+
+pip install --upgrade pip
+
+
+MATPLOTLIB
+pip install matplotlib
+
+python -c "import matplotlib; print(matplotlib.__version__)"
+
+pip install --upgrade pip
+
