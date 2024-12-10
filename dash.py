@@ -2,6 +2,7 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import plotly.express as px
+import random
 
 # Title of the dashboard
 st.title("Hospital Resource Management Dashboard")
@@ -36,4 +37,8 @@ st.write("""
 st.subheader("Patient Portal")
 name = st.text_input("Enter your name:")
 if st.button("Check Wait Time"):
-    st.write(f"Hello {name}, your estimated wait time is 20 minutes.")
+    # Generate a random wait time
+    wait_time = random.randint(10, 60)  # Between 10 and 60 minutes
+    st.write(f"Hello {name}, your estimated wait time is {wait_time} minutes.")
+
+
